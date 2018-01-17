@@ -1,0 +1,114 @@
+lh2debug@lh2debug-OptiPlex-9020 ~/u/pmemkv> ./pmemkv_bench --num=10000000
+Date:       Thu Jan  4 15:02:27 2018
+CPU:        8 * Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz
+CPUCache:   8192 KB
+Path:       /dev/shm/pmemkv
+Engine:     kvtree
+Keys:       16 bytes each
+Values:     100 bytes each
+Entries:    10000000
+RawSize:    1106.3 MB (estimated)
+------------------------------------------------
+removed      :       0.011 millis/op;
+open         :       0.006 millis/op;
+fillrandom   :       1.647 micros/op;   67.2 MB/s      
+deleteseq    :       0.362 micros/op;                  
+lh2debug@lh2debug-OptiPlex-9020 ~/u/pmemkv> make
+[ 20%] Built target pmemkv
+[ 46%] Built target gtest
+[ 53%] Built target pmemkv_example
+[ 73%] Built target pmemkv_test
+Scanning dependencies of target pmemkv_bench
+[ 76%] Building CXX object CMakeFiles/pmemkv_bench.dir/src/pmemkv_bench.cc.o
+[ 80%] Linking CXX executable pmemkv_bench
+[100%] Built target pmemkv_bench
+lh2debug@lh2debug-OptiPlex-9020 ~/u/pmemkv> ./pmemkv_bench --num=10000000
+Date:       Thu Jan  4 15:03:30 2018
+CPU:        8 * Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz
+CPUCache:   8192 KB
+Path:       /dev/shm/pmemkv
+Engine:     kvtree
+Keys:       16 bytes each
+Values:     100 bytes each
+Entries:    10000000
+RawSize:    1106.3 MB (estimated)
+------------------------------------------------
+removed      :       0.006 millis/op;
+open         :       0.003 millis/op;
+fillseq      :       0.749 micros/op;  147.6 MB/s      
+deleteseq    :       0.296 micros/op;                  
+lh2debug@lh2debug-OptiPlex-9020 ~/u/pmemkv> make
+[ 20%] Built target pmemkv
+[ 46%] Built target gtest
+[ 53%] Built target pmemkv_example
+[ 73%] Built target pmemkv_test
+Scanning dependencies of target pmemkv_bench
+[ 76%] Building CXX object CMakeFiles/pmemkv_bench.dir/src/pmemkv_bench.cc.o
+[ 80%] Linking CXX executable pmemkv_bench
+[100%] Built target pmemkv_bench
+lh2debug@lh2debug-OptiPlex-9020 ~/u/pmemkv> ./pmemkv_bench --num=10000000
+Date:       Thu Jan  4 15:04:09 2018
+CPU:        8 * Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz
+CPUCache:   8192 KB
+Path:       /dev/shm/pmemkv
+Engine:     kvtree
+Keys:       16 bytes each
+Values:     100 bytes each
+Entries:    10000000
+RawSize:    1106.3 MB (estimated)
+------------------------------------------------
+removed      :       0.006 millis/op;
+open         :       0.003 millis/op;
+fillseq      :       0.749 micros/op;  147.8 MB/s      
+deleterandom :       1.401 micros/op;      
+
+lh2debug@lh2debug-OptiPlex-9020 ~/u/pmemkv> ./pmemkv_bench --num=10000000^C
+lh2debug@lh2debug-OptiPlex-9020 ~/u/pmemkv> make
+[ 20%] Built target pmemkv
+[ 46%] Built target gtest
+[ 53%] Built target pmemkv_example
+[ 73%] Built target pmemkv_test
+Scanning dependencies of target pmemkv_bench
+[ 76%] Building CXX object CMakeFiles/pmemkv_bench.dir/src/pmemkv_bench.cc.o
+[ 80%] Linking CXX executable pmemkv_bench
+[100%] Built target pmemkv_bench
+lh2debug@lh2debug-OptiPlex-9020 ~/u/pmemkv> ./pmemkv_bench --num=10000000
+Date:       Thu Jan  4 15:12:44 2018
+CPU:        8 * Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz
+CPUCache:   8192 KB
+Path:       /dev/shm/pmemkv
+Engine:     kvtree
+Keys:       16 bytes each
+Values:     100 bytes each
+Entries:    10000000
+RawSize:    1106.3 MB (estimated)
+------------------------------------------------
+removed      :       0.008 millis/op;
+open         :       0.004 millis/op;
+fillseq      :       0.758 micros/op;  146.0 MB/s      
+readseq      :       0.338 micros/op;  327.8 MB/s (10000000 of 10000000 found)
+
+lh2debug@lh2debug-OptiPlex-9020 ~/u/pmemkv> make
+[ 20%] Built target pmemkv
+[ 46%] Built target gtest
+[ 53%] Built target pmemkv_example
+[ 73%] Built target pmemkv_test
+Scanning dependencies of target pmemkv_bench
+[ 76%] Building CXX object CMakeFiles/pmemkv_bench.dir/src/pmemkv_bench.cc.o
+[ 80%] Linking CXX executable pmemkv_bench
+[100%] Built target pmemkv_bench
+lh2debug@lh2debug-OptiPlex-9020 ~/u/pmemkv> ./pmemkv_bench --num=10000000
+Date:       Thu Jan  4 15:13:57 2018
+CPU:        8 * Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz
+CPUCache:   8192 KB
+Path:       /dev/shm/pmemkv
+Engine:     kvtree
+Keys:       16 bytes each
+Values:     100 bytes each
+Entries:    10000000
+RawSize:    1106.3 MB (estimated)
+------------------------------------------------
+removed      :       0.012 millis/op;
+open         :       0.005 millis/op;
+fillseq      :       0.749 micros/op;  147.6 MB/s      
+readrandom   :       1.540 micros/op;   71.9 MB/s (10000000 of 10000000 found)

@@ -1,0 +1,111 @@
+lh2debug@lh2debug-OptiPlex-9020 ~/u/pmemkv> ./pmemkv_bench --num=10000000
+Date:       Thu Jan  4 12:10:34 2018
+CPU:        8 * Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz
+CPUCache:   8192 KB
+Path:       /dev/shm/pmemkv
+Engine:     kvtree
+Keys:       16 bytes each
+Values:     16 bytes each
+Entries:    10000000
+RawSize:    305.2 MB (estimated)
+------------------------------------------------
+removed      :       0.010 millis/op;
+open         :       0.006 millis/op;
+fillrandom   :       1.360 micros/op;   22.4 MB/s      
+lh2debug@lh2debug-OptiPlex-9020 ~/u/pmemkv> make
+[ 20%] Built target pmemkv
+[ 46%] Built target gtest
+[ 53%] Built target pmemkv_example
+[ 73%] Built target pmemkv_test
+Scanning dependencies of target pmemkv_bench
+[ 76%] Building CXX object CMakeFiles/pmemkv_bench.dir/src/pmemkv_bench.cc.o
+[ 80%] Linking CXX executable pmemkv_bench
+[100%] Built target pmemkv_bench
+lh2debug@lh2debug-OptiPlex-9020 ~/u/pmemkv> ./pmemkv_bench --num=10000000
+Date:       Thu Jan  4 12:11:35 2018
+CPU:        8 * Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz
+CPUCache:   8192 KB
+Path:       /dev/shm/pmemkv
+Engine:     kvtree
+Keys:       16 bytes each
+Values:     16 bytes each
+Entries:    10000000
+RawSize:    305.2 MB (estimated)
+------------------------------------------------
+removed      :       0.008 millis/op;
+open         :       0.004 millis/op;
+fillrandom   :       1.372 micros/op;   22.2 MB/s      
+deleterandom :       1.082 micros/op;                  
+lh2debug@lh2debug-OptiPlex-9020 ~/u/pmemkv> make
+[ 20%] Built target pmemkv
+[ 46%] Built target gtest
+[ 53%] Built target pmemkv_example
+[ 73%] Built target pmemkv_test
+Scanning dependencies of target pmemkv_bench
+[ 76%] Building CXX object CMakeFiles/pmemkv_bench.dir/src/pmemkv_bench.cc.o
+[ 80%] Linking CXX executable pmemkv_bench
+[100%] Built target pmemkv_bench
+lh2debug@lh2debug-OptiPlex-9020 ~/u/pmemkv> ./pmemkv_bench --num=10000000
+Date:       Thu Jan  4 12:12:18 2018
+CPU:        8 * Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz
+CPUCache:   8192 KB
+Path:       /dev/shm/pmemkv
+Engine:     kvtree
+Keys:       16 bytes each
+Values:     16 bytes each
+Entries:    10000000
+RawSize:    305.2 MB (estimated)
+------------------------------------------------
+removed      :       0.007 millis/op;
+open         :       0.004 millis/op;
+fillseq      :       0.670 micros/op;   45.5 MB/s      
+deleteseq    :       0.285 micros/op;                  
+lh2debug@lh2debug-OptiPlex-9020 ~/u/pmemkv> make
+[ 20%] Built target pmemkv
+[ 46%] Built target gtest
+[ 53%] Built target pmemkv_example
+[ 73%] Built target pmemkv_test
+Scanning dependencies of target pmemkv_bench
+[ 76%] Building CXX object CMakeFiles/pmemkv_bench.dir/src/pmemkv_bench.cc.o
+[ 80%] Linking CXX executable pmemkv_bench
+[100%] Built target pmemkv_bench
+lh2debug@lh2debug-OptiPlex-9020 ~/u/pmemkv> ./pmemkv_bench --num=10000000
+Date:       Thu Jan  4 12:12:50 2018
+CPU:        8 * Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz
+CPUCache:   8192 KB
+Path:       /dev/shm/pmemkv
+Engine:     kvtree
+Keys:       16 bytes each
+Values:     16 bytes each
+Entries:    10000000
+RawSize:    305.2 MB (estimated)
+------------------------------------------------
+removed      :       0.006 millis/op;
+open         :       0.004 millis/op;
+fillseq      :       0.683 micros/op;   44.7 MB/s      
+readrandom   :       1.355 micros/op;   33.0 MB/s (10000000 of 10000000 found)
+lh2debug@lh2debug-OptiPlex-9020 ~/u/pmemkv> make
+[ 20%] Built target pmemkv
+[ 46%] Built target gtest
+[ 53%] Built target pmemkv_example
+[ 73%] Built target pmemkv_test
+Scanning dependencies of target pmemkv_bench
+[ 76%] Building CXX object CMakeFiles/pmemkv_bench.dir/src/pmemkv_bench.cc.o
+[ 80%] Linking CXX executable pmemkv_bench
+[100%] Built target pmemkv_bench
+lh2debug@lh2debug-OptiPlex-9020 ~/u/pmemkv> ./pmemkv_bench --num=10000000
+Date:       Thu Jan  4 12:13:24 2018
+CPU:        8 * Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz
+CPUCache:   8192 KB
+Path:       /dev/shm/pmemkv
+Engine:     kvtree
+Keys:       16 bytes each
+Values:     16 bytes each
+Entries:    10000000
+RawSize:    305.2 MB (estimated)
+------------------------------------------------
+removed      :       0.005 millis/op;
+open         :       0.003 millis/op;
+fillseq      :       0.668 micros/op;   45.7 MB/s      
+readseq      :       0.320 micros/op;  139.7 MB/s (10000000 of 10000000 found)
+

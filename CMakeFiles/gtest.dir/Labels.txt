@@ -1,0 +1,13 @@
+# Target labels
+ gtest
+# Source files and their labels
+/home/lh2debug/useful/pmemkv/CMakeFiles/gtest
+/home/lh2debug/useful/pmemkv/CMakeFiles/gtest.rule
+/home/lh2debug/useful/pmemkv/CMakeFiles/gtest-complete.rule
+/home/lh2debug/useful/pmemkv/gtest/src/gtest-stamp/gtest-install.rule
+/home/lh2debug/useful/pmemkv/gtest/src/gtest-stamp/gtest-mkdir.rule
+/home/lh2debug/useful/pmemkv/gtest/src/gtest-stamp/gtest-download.rule
+/home/lh2debug/useful/pmemkv/gtest/src/gtest-stamp/gtest-update.rule
+/home/lh2debug/useful/pmemkv/gtest/src/gtest-stamp/gtest-patch.rule
+/home/lh2debug/useful/pmemkv/gtest/src/gtest-stamp/gtest-configure.rule
+/home/lh2debug/useful/pmemkv/gtest/src/gtest-stamp/gtest-build.rule

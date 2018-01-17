@@ -1,0 +1,103 @@
+lh2debug@lh2debug-OptiPlex-9020 ~/u/pmemkv> ./pmemkv_bench --num=10000000
+Date:       Thu Jan  4 14:56:41 2018
+CPU:        8 * Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz
+CPUCache:   8192 KB
+Path:       /dev/shm/pmemkv
+Engine:     kvtree
+Keys:       16 bytes each
+Values:     100 bytes each
+Entries:    10000000
+RawSize:    1106.3 MB (estimated)
+------------------------------------------------
+removed      :       0.013 millis/op;
+open         :       0.007 millis/op;
+fillseq      :       0.725 micros/op;  152.6 MB/s      
+deleterandom :       1.364 micros/op;                  
+lh2debug@lh2debug-OptiPlex-9020 ~/u/pmemkv> make
+[ 20%] Built target pmemkv
+[ 46%] Built target gtest
+[ 53%] Built target pmemkv_example
+[ 73%] Built target pmemkv_test
+Scanning dependencies of target pmemkv_bench
+[ 76%] Building CXX object CMakeFiles/pmemkv_bench.dir/src/pmemkv_bench.cc.o
+[ 80%] Linking CXX executable pmemkv_bench
+[100%] Built target pmemkv_bench
+lh2debug@lh2debug-OptiPlex-9020 ~/u/pmemkv> ./pmemkv_bench --num=10000000
+Date:       Thu Jan  4 14:57:19 2018
+CPU:        8 * Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz
+CPUCache:   8192 KB
+Path:       /dev/shm/pmemkv
+Engine:     kvtree
+Keys:       16 bytes each
+Values:     100 bytes each
+Entries:    10000000
+RawSize:    1106.3 MB (estimated)
+------------------------------------------------
+removed      :       0.008 millis/op;
+open         :       0.003 millis/op;
+fillseq      :       0.715 micros/op;  154.7 MB/s      
+deleteseq    :       0.293 micros/op;                  
+lh2debug@lh2debug-OptiPlex-9020 ~/u/pmemkv> make
+[ 20%] Built target pmemkv
+[ 46%] Built target gtest
+[ 53%] Built target pmemkv_example
+[ 73%] Built target pmemkv_test
+Scanning dependencies of target pmemkv_bench
+[ 76%] Building CXX object CMakeFiles/pmemkv_bench.dir/src/pmemkv_bench.cc.o
+[ 80%] Linking CXX executable pmemkv_bench
+[100%] Built target pmemkv_bench
+lh2debug@lh2debug-OptiPlex-9020 ~/u/pmemkv> ./pmemkv_bench --num=10000000
+Date:       Thu Jan  4 14:57:56 2018
+CPU:        8 * Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz
+CPUCache:   8192 KB
+Path:       /dev/shm/pmemkv
+Engine:     kvtree
+Keys:       16 bytes each
+Values:     100 bytes each
+Entries:    10000000
+RawSize:    1106.3 MB (estimated)
+------------------------------------------------
+removed      :       0.006 millis/op;
+open         :       0.004 millis/op;
+fillrandom   :       1.618 micros/op;   68.4 MB/s      
+deleteseq    :       0.357 micros/op;   
+
+lh2debug@lh2debug-OptiPlex-9020 ~/u/pmemkv> ./pmemkv_bench --num=10000000
+Date:       Thu Jan  4 15:15:33 2018
+CPU:        8 * Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz
+CPUCache:   8192 KB
+Path:       /dev/shm/pmemkv
+Engine:     kvtree
+Keys:       16 bytes each
+Values:     100 bytes each
+Entries:    10000000
+RawSize:    1106.3 MB (estimated)
+------------------------------------------------
+removed      :       0.011 millis/op;
+open         :       0.007 millis/op;
+fillseq      :       0.735 micros/op;  150.4 MB/s      
+readrandom   :       1.560 micros/op;   70.9 MB/s (10000000 of 10000000 found)
+lh2debug@lh2debug-OptiPlex-9020 ~/u/pmemkv> make
+[ 20%] Built target pmemkv
+[ 46%] Built target gtest
+[ 53%] Built target pmemkv_example
+[ 73%] Built target pmemkv_test
+Scanning dependencies of target pmemkv_bench
+[ 76%] Building CXX object CMakeFiles/pmemkv_bench.dir/src/pmemkv_bench.cc.o
+[ 80%] Linking CXX executable pmemkv_bench
+[100%] Built target pmemkv_bench
+lh2debug@lh2debug-OptiPlex-9020 ~/u/pmemkv> ./pmemkv_bench --num=10000000
+Date:       Thu Jan  4 15:16:35 2018
+CPU:        8 * Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz
+CPUCache:   8192 KB
+Path:       /dev/shm/pmemkv
+Engine:     kvtree
+Keys:       16 bytes each
+Values:     100 bytes each
+Entries:    10000000
+RawSize:    1106.3 MB (estimated)
+------------------------------------------------
+removed      :       0.004 millis/op;
+open         :       0.001 millis/op;
+fillseq      :       0.730 micros/op;  151.6 MB/s      
+readseq      :       0.332 micros/op;  333.5 MB/s (10000000 of 10000000 found)
