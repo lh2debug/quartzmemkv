@@ -25,6 +25,7 @@
 
 #include <climits>
 #include <cstddef>
+#include "pmalloc.h"
 
 template <typename T, size_t BlockSize = 4096>
 class MemoryPool

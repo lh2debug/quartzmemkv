@@ -99,11 +99,17 @@ MemoryPool<T, BlockSize>::~MemoryPool()
 noexcept
 {
   slot_pointer_ curr = currentBlock_;
+//  while (curr != nullptr) {
+//    slot_pointer_ prev = curr->next;
+//    operator delete(reinterpret_cast<void*>(curr));
+//    curr = prev;
+//  }
   while (curr != nullptr) {
     slot_pointer_ prev = curr->next;
-    operator delete(reinterpret_cast<void*>(curr));
+    pfree(reinterpret_cast<void*>(curr), BlockSize);
     curr = prev;
   }
+
 }
 
 
@@ -133,8 +139,13 @@ void
 MemoryPool<T, BlockSize>::allocateBlock()
 {
   // Allocate space for the new block and store a pointer to the previous one
+  //data_pointer_ newBlock = reinterpret_cast<data_pointer_>
+  //                         (operator new(BlockSize));
+  
   data_pointer_ newBlock = reinterpret_cast<data_pointer_>
-                           (operator new(BlockSize));
+                           (pmalloc(BlockSize));
+  
+                           
   reinterpret_cast<slot_pointer_>(newBlock)->next = currentBlock_;
   currentBlock_ = reinterpret_cast<slot_pointer_>(newBlock);
   // Pad block body to staisfy the alignment requirements for elements

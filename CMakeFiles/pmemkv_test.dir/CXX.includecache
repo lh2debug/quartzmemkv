@@ -67,10 +67,16 @@ climits
 -
 cstddef
 -
+pmalloc.h
+/home/lh2debug/useful/pmemkv/src/nvmpool/pmalloc.h
 MemoryPool.tcc
 /home/lh2debug/useful/pmemkv/src/nvmpool/MemoryPool.tcc
 
 /home/lh2debug/useful/pmemkv/src/nvmpool/MemoryPool.tcc
+
+/home/lh2debug/useful/pmemkv/src/nvmpool/pmalloc.h
+stddef.h
+-
 
 /home/lh2debug/useful/pmemkv/src/pmemkv.h
 string

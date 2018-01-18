@@ -72,6 +72,7 @@ set_target_properties(libgtest PROPERTIES
     "IMPORTED_LOCATION" "${binary_dir}/libgtest.a"
     "IMPORTED_LINK_INTERFACE_LIBRARIES" "${CMAKE_THREAD_LIBS_INIT}"
 )
+
 include_directories("${source_dir}/include")
 
 if(PKG_CONFIG_FOUND)
@@ -82,6 +83,11 @@ endif()
 
 include_directories(${PMEMOBJ++_INCLUDE_DIRS})
 link_directories(${PMEMOBJ++_LIBRARY_DIRS})
+
+link_directories("/usr/local/lib/")
+
+link_libraries(nvmemul)
+
 
 add_library(pmemkv SHARED ${SOURCE_FILES})
 target_link_libraries(pmemkv ${PMEMOBJ++_LIBRARIES})
