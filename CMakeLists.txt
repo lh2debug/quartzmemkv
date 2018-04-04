@@ -75,14 +75,14 @@ set_target_properties(libgtest PROPERTIES
 
 include_directories("${source_dir}/include")
 
-if(PKG_CONFIG_FOUND)
-    pkg_check_modules(PMEMOBJ++ REQUIRED libpmemobj++)
-else()
-    find_package(PMEMOBJ++ REQUIRED)
-endif()
+#if(PKG_CONFIG_FOUND)
+#    pkg_check_modules(PMEMOBJ++ REQUIRED libpmemobj++)
+#else()
+#    find_package(PMEMOBJ++ REQUIRED)
+#endif()
 
-include_directories(${PMEMOBJ++_INCLUDE_DIRS})
-link_directories(${PMEMOBJ++_LIBRARY_DIRS})
+#include_directories(${PMEMOBJ++_INCLUDE_DIRS})
+#link_directories(${PMEMOBJ++_LIBRARY_DIRS})
 
 link_directories("/usr/local/lib/")
 
@@ -90,7 +90,7 @@ link_libraries(nvmemul)
 
 
 add_library(pmemkv SHARED ${SOURCE_FILES})
-target_link_libraries(pmemkv ${PMEMOBJ++_LIBRARIES})
+#target_link_libraries(pmemkv ${PMEMOBJ++_LIBRARIES})
 
 add_executable(pmemkv_example src/pmemkv_example.cc)
 target_link_libraries(pmemkv_example pmemkv)

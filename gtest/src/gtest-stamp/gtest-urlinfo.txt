@@ -1,3 +1,3 @@
 repository='external project URL'
-module='/home/lh2debug/useful/pmemkv/googletest-1.7.0.zip'
+module='https://github.com/google/googletest/archive/release-1.7.0.zip'
 tag=''

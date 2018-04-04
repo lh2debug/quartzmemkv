@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/pmemkv_example.dir/src/pmemkv_example.cc.o  -o pmemkv_example  -L/usr/local/lib -Wl,-rpath,/usr/local/lib:/home/lh2debug/useful/pmemkv -lnvmemul libpmemkv.so -lnvmemul -lpmemobj 
+/usr/bin/c++     CMakeFiles/pmemkv_example.dir/src/pmemkv_example.cc.o  -o pmemkv_example  -L/usr/local/lib -Wl,-rpath,/root/lab505/app_source/quartzmemkv2:/usr/local/lib -lnvmemul libpmemkv.so -lnvmemul 

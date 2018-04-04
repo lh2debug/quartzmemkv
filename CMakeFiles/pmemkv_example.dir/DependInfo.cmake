@@ -4,14 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lh2debug/useful/pmemkv/src/pmemkv_example.cc" "/home/lh2debug/useful/pmemkv/CMakeFiles/pmemkv_example.dir/src/pmemkv_example.cc.o"
+  "/root/lab505/app_source/quartzmemkv2/src/pmemkv_example.cc" "/root/lab505/app_source/quartzmemkv2/CMakeFiles/pmemkv_example.dir/src/pmemkv_example.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "gtest/src/gtest/include"
-  "/usr/local/include"
   "leveldb"
   "leveldb/include"
   "leveldb/port"
@@ -20,7 +19,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/lh2debug/useful/pmemkv/CMakeFiles/pmemkv.dir/DependInfo.cmake"
+  "/root/lab505/app_source/quartzmemkv2/CMakeFiles/pmemkv.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

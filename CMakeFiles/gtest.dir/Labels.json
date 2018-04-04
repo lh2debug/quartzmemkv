@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/lh2debug/useful/pmemkv/CMakeFiles/gtest"
+			"file" : "/root/lab505/app_source/quartzmemkv2/CMakeFiles/gtest"
 		},
 		{
-			"file" : "/home/lh2debug/useful/pmemkv/CMakeFiles/gtest.rule"
+			"file" : "/root/lab505/app_source/quartzmemkv2/CMakeFiles/gtest.rule"
 		},
 		{
-			"file" : "/home/lh2debug/useful/pmemkv/CMakeFiles/gtest-complete.rule"
+			"file" : "/root/lab505/app_source/quartzmemkv2/CMakeFiles/gtest-complete.rule"
 		},
 		{
-			"file" : "/home/lh2debug/useful/pmemkv/gtest/src/gtest-stamp/gtest-install.rule"
+			"file" : "/root/lab505/app_source/quartzmemkv2/gtest/src/gtest-stamp/gtest-install.rule"
 		},
 		{
-			"file" : "/home/lh2debug/useful/pmemkv/gtest/src/gtest-stamp/gtest-mkdir.rule"
+			"file" : "/root/lab505/app_source/quartzmemkv2/gtest/src/gtest-stamp/gtest-mkdir.rule"
 		},
 		{
-			"file" : "/home/lh2debug/useful/pmemkv/gtest/src/gtest-stamp/gtest-download.rule"
+			"file" : "/root/lab505/app_source/quartzmemkv2/gtest/src/gtest-stamp/gtest-download.rule"
 		},
 		{
-			"file" : "/home/lh2debug/useful/pmemkv/gtest/src/gtest-stamp/gtest-update.rule"
+			"file" : "/root/lab505/app_source/quartzmemkv2/gtest/src/gtest-stamp/gtest-update.rule"
 		},
 		{
-			"file" : "/home/lh2debug/useful/pmemkv/gtest/src/gtest-stamp/gtest-patch.rule"
+			"file" : "/root/lab505/app_source/quartzmemkv2/gtest/src/gtest-stamp/gtest-patch.rule"
 		},
 		{
-			"file" : "/home/lh2debug/useful/pmemkv/gtest/src/gtest-stamp/gtest-configure.rule"
+			"file" : "/root/lab505/app_source/quartzmemkv2/gtest/src/gtest-stamp/gtest-configure.rule"
 		},
 		{
-			"file" : "/home/lh2debug/useful/pmemkv/gtest/src/gtest-stamp/gtest-build.rule"
+			"file" : "/root/lab505/app_source/quartzmemkv2/gtest/src/gtest-stamp/gtest-build.rule"
 		}
 	],
 	"target" : 

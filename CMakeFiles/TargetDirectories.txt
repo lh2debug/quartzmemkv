@@ -1,7 +1,7 @@
-/home/lh2debug/useful/pmemkv/CMakeFiles/pmemkv.dir
-/home/lh2debug/useful/pmemkv/CMakeFiles/rebuild_cache.dir
-/home/lh2debug/useful/pmemkv/CMakeFiles/gtest.dir
-/home/lh2debug/useful/pmemkv/CMakeFiles/pmemkv_example.dir
-/home/lh2debug/useful/pmemkv/CMakeFiles/edit_cache.dir
-/home/lh2debug/useful/pmemkv/CMakeFiles/pmemkv_test.dir
-/home/lh2debug/useful/pmemkv/CMakeFiles/pmemkv_bench.dir
+/root/lab505/app_source/quartzmemkv2/CMakeFiles/edit_cache.dir
+/root/lab505/app_source/quartzmemkv2/CMakeFiles/pmemkv_bench.dir
+/root/lab505/app_source/quartzmemkv2/CMakeFiles/pmemkv_test.dir
+/root/lab505/app_source/quartzmemkv2/CMakeFiles/pmemkv_example.dir
+/root/lab505/app_source/quartzmemkv2/CMakeFiles/pmemkv.dir
+/root/lab505/app_source/quartzmemkv2/CMakeFiles/rebuild_cache.dir
+/root/lab505/app_source/quartzmemkv2/CMakeFiles/gtest.dir
