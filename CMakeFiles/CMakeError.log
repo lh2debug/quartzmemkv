@@ -265,3 +265,105 @@ gmake[1]: Leaving directory `/mnt/sdb/app_source/quartzmemkv2/CMakeFiles/CMakeTm
 gmake: *** [cmTC_c3317/fast] Error 2
 
 
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/lab505/app_source/quartzmemkv/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_1508f/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_1508f.dir/build.make CMakeFiles/cmTC_1508f.dir/build
+gmake[1]: 进入目录“/mnt/sdb/app_source/quartzmemkv/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_1508f.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1508f.dir/CheckSymbolExists.c.o   -c /root/lab505/app_source/quartzmemkv/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1508f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1508f.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_1508f.dir/CheckSymbolExists.c.o  -o cmTC_1508f 
+CMakeFiles/cmTC_1508f.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: *** [cmTC_1508f] 错误 1
+gmake[1]: 离开目录“/mnt/sdb/app_source/quartzmemkv/CMakeFiles/CMakeTmp”
+gmake: *** [cmTC_1508f/fast] 错误 2
+
+File /root/lab505/app_source/quartzmemkv/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/lab505/app_source/quartzmemkv/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_98919/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_98919.dir/build.make CMakeFiles/cmTC_98919.dir/build
+gmake[1]: 进入目录“/mnt/sdb/app_source/quartzmemkv/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_98919.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_98919.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_98919
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98919.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_98919.dir/CheckFunctionExists.c.o  -o cmTC_98919 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: 错误：ld 返回 1
+gmake[1]: *** [cmTC_98919] 错误 1
+gmake[1]: 离开目录“/mnt/sdb/app_source/quartzmemkv/CMakeFiles/CMakeTmp”
+gmake: *** [cmTC_98919/fast] 错误 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/lab505/app_source/quartzmemkv/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_f2473/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f2473.dir/build.make CMakeFiles/cmTC_f2473.dir/build
+gmake[1]: 进入目录“/mnt/sdb/app_source/quartzmemkv/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_f2473.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f2473.dir/CheckSymbolExists.c.o   -c /root/lab505/app_source/quartzmemkv/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f2473
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2473.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_f2473.dir/CheckSymbolExists.c.o  -o cmTC_f2473 
+CMakeFiles/cmTC_f2473.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: 错误：ld 返回 1
+gmake[1]: *** [cmTC_f2473] 错误 1
+gmake[1]: 离开目录“/mnt/sdb/app_source/quartzmemkv/CMakeFiles/CMakeTmp”
+gmake: *** [cmTC_f2473/fast] 错误 2
+
+File /root/lab505/app_source/quartzmemkv/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/lab505/app_source/quartzmemkv/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_40e9a/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_40e9a.dir/build.make CMakeFiles/cmTC_40e9a.dir/build
+gmake[1]: 进入目录“/mnt/sdb/app_source/quartzmemkv/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_40e9a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_40e9a.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_40e9a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40e9a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_40e9a.dir/CheckFunctionExists.c.o  -o cmTC_40e9a -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: 错误：ld 返回 1
+gmake[1]: *** [cmTC_40e9a] 错误 1
+gmake[1]: 离开目录“/mnt/sdb/app_source/quartzmemkv/CMakeFiles/CMakeTmp”
+gmake: *** [cmTC_40e9a/fast] 错误 2
+
+

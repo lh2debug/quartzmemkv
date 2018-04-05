@@ -84,10 +84,12 @@ include_directories("${source_dir}/include")
 #include_directories(${PMEMOBJ++_INCLUDE_DIRS})
 #link_directories(${PMEMOBJ++_LIBRARY_DIRS})
 
+link_directories("/usr/local/lib64/")
 link_directories("/usr/local/lib/")
 
 link_libraries(nvmemul)
 
+link_libraries(pmemobj)
 
 add_library(pmemkv SHARED ${SOURCE_FILES})
 #target_link_libraries(pmemkv ${PMEMOBJ++_LIBRARIES})

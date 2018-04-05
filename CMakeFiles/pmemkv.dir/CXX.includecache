@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/root/lab505/app_source/quartzmemkv2/src/engines/blackhole.cc
+/root/lab505/app_source/quartzmemkv/src/engines/blackhole.cc
 iostream
 -
 blackhole.h
-/root/lab505/app_source/quartzmemkv2/src/engines/blackhole.h
+/root/lab505/app_source/quartzmemkv/src/engines/blackhole.h
 
-/root/lab505/app_source/quartzmemkv2/src/engines/blackhole.h
+/root/lab505/app_source/quartzmemkv/src/engines/blackhole.h
 ../pmemkv.h
-/root/lab505/app_source/quartzmemkv2/src/pmemkv.h
+/root/lab505/app_source/quartzmemkv/src/pmemkv.h
 
-/root/lab505/app_source/quartzmemkv2/src/engines/kvtree.cc
+/root/lab505/app_source/quartzmemkv/src/engines/kvtree.cc
 algorithm
 -
 cassert
@@ -32,21 +32,21 @@ unistd.h
 cstdio
 -
 kvtree.h
-/root/lab505/app_source/quartzmemkv2/src/engines/kvtree.h
+/root/lab505/app_source/quartzmemkv/src/engines/kvtree.h
 ../mylog.h
-/root/lab505/app_source/quartzmemkv2/src/mylog.h
+/root/lab505/app_source/quartzmemkv/src/mylog.h
 
-/root/lab505/app_source/quartzmemkv2/src/engines/kvtree.h
+/root/lab505/app_source/quartzmemkv/src/engines/kvtree.h
 vector
 -
 ../pmemkv.h
-/root/lab505/app_source/quartzmemkv2/src/pmemkv.h
+/root/lab505/app_source/quartzmemkv/src/pmemkv.h
 memory
 -
 ../nvmpool/MemoryPool.h
-/root/lab505/app_source/quartzmemkv2/src/nvmpool/MemoryPool.h
+/root/lab505/app_source/quartzmemkv/src/nvmpool/MemoryPool.h
 
-/root/lab505/app_source/quartzmemkv2/src/engines/kvtree2.cc
+/root/lab505/app_source/quartzmemkv/src/engines/kvtree2.cc
 algorithm
 -
 cassert
@@ -60,15 +60,15 @@ list
 unistd.h
 -
 kvtree2.h
-/root/lab505/app_source/quartzmemkv2/src/engines/kvtree2.h
+/root/lab505/app_source/quartzmemkv/src/engines/kvtree2.h
 
-/root/lab505/app_source/quartzmemkv2/src/engines/kvtree2.h
+/root/lab505/app_source/quartzmemkv/src/engines/kvtree2.h
 vector
 -
 ../pmemkv.h
-/root/lab505/app_source/quartzmemkv2/src/pmemkv.h
+/root/lab505/app_source/quartzmemkv/src/pmemkv.h
 
-/root/lab505/app_source/quartzmemkv2/src/engines/versioned_b_tree.cc
+/root/lab505/app_source/quartzmemkv/src/engines/versioned_b_tree.cc
 iostream
 -
 unistd.h
@@ -80,17 +80,17 @@ libpmemobj++/make_persistent_atomic.hpp
 libpmemobj++/detail/common.hpp
 -
 versioned_b_tree.h
-/root/lab505/app_source/quartzmemkv2/src/engines/versioned_b_tree.h
+/root/lab505/app_source/quartzmemkv/src/engines/versioned_b_tree.h
 
-/root/lab505/app_source/quartzmemkv2/src/engines/versioned_b_tree.h
+/root/lab505/app_source/quartzmemkv/src/engines/versioned_b_tree.h
 ../pmemkv.h
-/root/lab505/app_source/quartzmemkv2/src/pmemkv.h
+/root/lab505/app_source/quartzmemkv/src/pmemkv.h
 versioned_b_tree/persistent_b_tree.h
-/root/lab505/app_source/quartzmemkv2/src/engines/versioned_b_tree/persistent_b_tree.h
+/root/lab505/app_source/quartzmemkv/src/engines/versioned_b_tree/persistent_b_tree.h
 versioned_b_tree/pstring.h
-/root/lab505/app_source/quartzmemkv2/src/engines/versioned_b_tree/pstring.h
+/root/lab505/app_source/quartzmemkv/src/engines/versioned_b_tree/pstring.h
 
-/root/lab505/app_source/quartzmemkv2/src/engines/versioned_b_tree/persistent_b_tree.h
+/root/lab505/app_source/quartzmemkv/src/engines/versioned_b_tree/persistent_b_tree.h
 vector
 -
 algorithm
@@ -118,13 +118,13 @@ libpmemobj++/transaction.hpp
 libpmemobj++/pool.hpp
 -
 
-/root/lab505/app_source/quartzmemkv2/src/engines/versioned_b_tree/pstring.h
+/root/lab505/app_source/quartzmemkv/src/engines/versioned_b_tree/pstring.h
 string.h
 -
 stdexcept
 -
 
-/root/lab505/app_source/quartzmemkv2/src/mylog.h
+/root/lab505/app_source/quartzmemkv/src/mylog.h
 iostream
 -
 fstream
@@ -132,33 +132,33 @@ fstream
 string
 -
 
-/root/lab505/app_source/quartzmemkv2/src/nvmpool/MemoryPool.h
+/root/lab505/app_source/quartzmemkv/src/nvmpool/MemoryPool.h
 climits
 -
 cstddef
 -
 pmalloc.h
-/root/lab505/app_source/quartzmemkv2/src/nvmpool/pmalloc.h
+/root/lab505/app_source/quartzmemkv/src/nvmpool/pmalloc.h
 MemoryPool.tcc
-/root/lab505/app_source/quartzmemkv2/src/nvmpool/MemoryPool.tcc
+/root/lab505/app_source/quartzmemkv/src/nvmpool/MemoryPool.tcc
 
-/root/lab505/app_source/quartzmemkv2/src/nvmpool/MemoryPool.tcc
+/root/lab505/app_source/quartzmemkv/src/nvmpool/MemoryPool.tcc
 
-/root/lab505/app_source/quartzmemkv2/src/nvmpool/pmalloc.h
+/root/lab505/app_source/quartzmemkv/src/nvmpool/pmalloc.h
 stddef.h
 -
 
-/root/lab505/app_source/quartzmemkv2/src/pmemkv.cc
+/root/lab505/app_source/quartzmemkv/src/pmemkv.cc
 engines/blackhole.h
-/root/lab505/app_source/quartzmemkv2/src/engines/blackhole.h
+/root/lab505/app_source/quartzmemkv/src/engines/blackhole.h
 engines/kvtree.h
-/root/lab505/app_source/quartzmemkv2/src/engines/kvtree.h
+/root/lab505/app_source/quartzmemkv/src/engines/kvtree.h
 engines/kvtree2.h
-/root/lab505/app_source/quartzmemkv2/src/engines/kvtree2.h
+/root/lab505/app_source/quartzmemkv/src/engines/kvtree2.h
 engines/versioned_b_tree.h
-/root/lab505/app_source/quartzmemkv2/src/engines/versioned_b_tree.h
+/root/lab505/app_source/quartzmemkv/src/engines/versioned_b_tree.h
 
-/root/lab505/app_source/quartzmemkv2/src/pmemkv.h
+/root/lab505/app_source/quartzmemkv/src/pmemkv.h
 string
 -
 libpmemobj++/make_persistent.hpp

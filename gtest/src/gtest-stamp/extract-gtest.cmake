@@ -1,7 +1,7 @@
 # Make file names absolute:
 #
-get_filename_component(filename "/root/lab505/app_source/quartzmemkv2/googletest-1.7.0.zip" ABSOLUTE)
-get_filename_component(directory "/root/lab505/app_source/quartzmemkv2/gtest/src/gtest" ABSOLUTE)
+get_filename_component(filename "/root/lab505/app_source/quartzmemkv/googletest-1.7.0.zip" ABSOLUTE)
+get_filename_component(directory "/root/lab505/app_source/quartzmemkv/gtest/src/gtest" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

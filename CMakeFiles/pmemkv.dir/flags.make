@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC   -O2 -DNDEBUG -std=gnu++11
 
 CXX_DEFINES = -Dpmemkv_EXPORTS
 
-CXX_INCLUDES = -I/root/lab505/app_source/quartzmemkv2/gtest/src/gtest/include -I/root/lab505/app_source/quartzmemkv2/leveldb -I/root/lab505/app_source/quartzmemkv2/leveldb/include -I/root/lab505/app_source/quartzmemkv2/leveldb/port -I/root/lab505/app_source/quartzmemkv2/leveldb/util 
+CXX_INCLUDES = -I/root/lab505/app_source/quartzmemkv/gtest/src/gtest/include -I/root/lab505/app_source/quartzmemkv/leveldb -I/root/lab505/app_source/quartzmemkv/leveldb/include -I/root/lab505/app_source/quartzmemkv/leveldb/port -I/root/lab505/app_source/quartzmemkv/leveldb/util 
 

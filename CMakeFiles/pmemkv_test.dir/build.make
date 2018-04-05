@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/lab505/app_source/quartzmemkv2
+CMAKE_SOURCE_DIR = /root/lab505/app_source/quartzmemkv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/lab505/app_source/quartzmemkv2
+CMAKE_BINARY_DIR = /root/lab505/app_source/quartzmemkv
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pmemkv_test.dir/depend.make
@@ -59,68 +59,68 @@ include CMakeFiles/pmemkv_test.dir/flags.make
 
 CMakeFiles/pmemkv_test.dir/tests/pmemkv_test.cc.o: CMakeFiles/pmemkv_test.dir/flags.make
 CMakeFiles/pmemkv_test.dir/tests/pmemkv_test.cc.o: tests/pmemkv_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/lab505/app_source/quartzmemkv2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pmemkv_test.dir/tests/pmemkv_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pmemkv_test.dir/tests/pmemkv_test.cc.o -c /root/lab505/app_source/quartzmemkv2/tests/pmemkv_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/lab505/app_source/quartzmemkv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pmemkv_test.dir/tests/pmemkv_test.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pmemkv_test.dir/tests/pmemkv_test.cc.o -c /root/lab505/app_source/quartzmemkv/tests/pmemkv_test.cc
 
 CMakeFiles/pmemkv_test.dir/tests/pmemkv_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pmemkv_test.dir/tests/pmemkv_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/lab505/app_source/quartzmemkv2/tests/pmemkv_test.cc > CMakeFiles/pmemkv_test.dir/tests/pmemkv_test.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/lab505/app_source/quartzmemkv/tests/pmemkv_test.cc > CMakeFiles/pmemkv_test.dir/tests/pmemkv_test.cc.i
 
 CMakeFiles/pmemkv_test.dir/tests/pmemkv_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pmemkv_test.dir/tests/pmemkv_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/lab505/app_source/quartzmemkv2/tests/pmemkv_test.cc -o CMakeFiles/pmemkv_test.dir/tests/pmemkv_test.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/lab505/app_source/quartzmemkv/tests/pmemkv_test.cc -o CMakeFiles/pmemkv_test.dir/tests/pmemkv_test.cc.s
 
 CMakeFiles/pmemkv_test.dir/tests/mock_tx_alloc.cc.o: CMakeFiles/pmemkv_test.dir/flags.make
 CMakeFiles/pmemkv_test.dir/tests/mock_tx_alloc.cc.o: tests/mock_tx_alloc.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/lab505/app_source/quartzmemkv2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pmemkv_test.dir/tests/mock_tx_alloc.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pmemkv_test.dir/tests/mock_tx_alloc.cc.o -c /root/lab505/app_source/quartzmemkv2/tests/mock_tx_alloc.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/lab505/app_source/quartzmemkv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pmemkv_test.dir/tests/mock_tx_alloc.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pmemkv_test.dir/tests/mock_tx_alloc.cc.o -c /root/lab505/app_source/quartzmemkv/tests/mock_tx_alloc.cc
 
 CMakeFiles/pmemkv_test.dir/tests/mock_tx_alloc.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pmemkv_test.dir/tests/mock_tx_alloc.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/lab505/app_source/quartzmemkv2/tests/mock_tx_alloc.cc > CMakeFiles/pmemkv_test.dir/tests/mock_tx_alloc.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/lab505/app_source/quartzmemkv/tests/mock_tx_alloc.cc > CMakeFiles/pmemkv_test.dir/tests/mock_tx_alloc.cc.i
 
 CMakeFiles/pmemkv_test.dir/tests/mock_tx_alloc.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pmemkv_test.dir/tests/mock_tx_alloc.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/lab505/app_source/quartzmemkv2/tests/mock_tx_alloc.cc -o CMakeFiles/pmemkv_test.dir/tests/mock_tx_alloc.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/lab505/app_source/quartzmemkv/tests/mock_tx_alloc.cc -o CMakeFiles/pmemkv_test.dir/tests/mock_tx_alloc.cc.s
 
 CMakeFiles/pmemkv_test.dir/tests/engines/blackhole_test.cc.o: CMakeFiles/pmemkv_test.dir/flags.make
 CMakeFiles/pmemkv_test.dir/tests/engines/blackhole_test.cc.o: tests/engines/blackhole_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/lab505/app_source/quartzmemkv2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pmemkv_test.dir/tests/engines/blackhole_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pmemkv_test.dir/tests/engines/blackhole_test.cc.o -c /root/lab505/app_source/quartzmemkv2/tests/engines/blackhole_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/lab505/app_source/quartzmemkv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pmemkv_test.dir/tests/engines/blackhole_test.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pmemkv_test.dir/tests/engines/blackhole_test.cc.o -c /root/lab505/app_source/quartzmemkv/tests/engines/blackhole_test.cc
 
 CMakeFiles/pmemkv_test.dir/tests/engines/blackhole_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pmemkv_test.dir/tests/engines/blackhole_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/lab505/app_source/quartzmemkv2/tests/engines/blackhole_test.cc > CMakeFiles/pmemkv_test.dir/tests/engines/blackhole_test.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/lab505/app_source/quartzmemkv/tests/engines/blackhole_test.cc > CMakeFiles/pmemkv_test.dir/tests/engines/blackhole_test.cc.i
 
 CMakeFiles/pmemkv_test.dir/tests/engines/blackhole_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pmemkv_test.dir/tests/engines/blackhole_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/lab505/app_source/quartzmemkv2/tests/engines/blackhole_test.cc -o CMakeFiles/pmemkv_test.dir/tests/engines/blackhole_test.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/lab505/app_source/quartzmemkv/tests/engines/blackhole_test.cc -o CMakeFiles/pmemkv_test.dir/tests/engines/blackhole_test.cc.s
 
 CMakeFiles/pmemkv_test.dir/tests/engines/kvtree_test.cc.o: CMakeFiles/pmemkv_test.dir/flags.make
 CMakeFiles/pmemkv_test.dir/tests/engines/kvtree_test.cc.o: tests/engines/kvtree_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/lab505/app_source/quartzmemkv2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pmemkv_test.dir/tests/engines/kvtree_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pmemkv_test.dir/tests/engines/kvtree_test.cc.o -c /root/lab505/app_source/quartzmemkv2/tests/engines/kvtree_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/lab505/app_source/quartzmemkv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pmemkv_test.dir/tests/engines/kvtree_test.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pmemkv_test.dir/tests/engines/kvtree_test.cc.o -c /root/lab505/app_source/quartzmemkv/tests/engines/kvtree_test.cc
 
 CMakeFiles/pmemkv_test.dir/tests/engines/kvtree_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pmemkv_test.dir/tests/engines/kvtree_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/lab505/app_source/quartzmemkv2/tests/engines/kvtree_test.cc > CMakeFiles/pmemkv_test.dir/tests/engines/kvtree_test.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/lab505/app_source/quartzmemkv/tests/engines/kvtree_test.cc > CMakeFiles/pmemkv_test.dir/tests/engines/kvtree_test.cc.i
 
 CMakeFiles/pmemkv_test.dir/tests/engines/kvtree_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pmemkv_test.dir/tests/engines/kvtree_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/lab505/app_source/quartzmemkv2/tests/engines/kvtree_test.cc -o CMakeFiles/pmemkv_test.dir/tests/engines/kvtree_test.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/lab505/app_source/quartzmemkv/tests/engines/kvtree_test.cc -o CMakeFiles/pmemkv_test.dir/tests/engines/kvtree_test.cc.s
 
 CMakeFiles/pmemkv_test.dir/tests/engines/versioned_b_tree_test.cc.o: CMakeFiles/pmemkv_test.dir/flags.make
 CMakeFiles/pmemkv_test.dir/tests/engines/versioned_b_tree_test.cc.o: tests/engines/versioned_b_tree_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/lab505/app_source/quartzmemkv2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pmemkv_test.dir/tests/engines/versioned_b_tree_test.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pmemkv_test.dir/tests/engines/versioned_b_tree_test.cc.o -c /root/lab505/app_source/quartzmemkv2/tests/engines/versioned_b_tree_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/lab505/app_source/quartzmemkv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pmemkv_test.dir/tests/engines/versioned_b_tree_test.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pmemkv_test.dir/tests/engines/versioned_b_tree_test.cc.o -c /root/lab505/app_source/quartzmemkv/tests/engines/versioned_b_tree_test.cc
 
 CMakeFiles/pmemkv_test.dir/tests/engines/versioned_b_tree_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pmemkv_test.dir/tests/engines/versioned_b_tree_test.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/lab505/app_source/quartzmemkv2/tests/engines/versioned_b_tree_test.cc > CMakeFiles/pmemkv_test.dir/tests/engines/versioned_b_tree_test.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/lab505/app_source/quartzmemkv/tests/engines/versioned_b_tree_test.cc > CMakeFiles/pmemkv_test.dir/tests/engines/versioned_b_tree_test.cc.i
 
 CMakeFiles/pmemkv_test.dir/tests/engines/versioned_b_tree_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pmemkv_test.dir/tests/engines/versioned_b_tree_test.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/lab505/app_source/quartzmemkv2/tests/engines/versioned_b_tree_test.cc -o CMakeFiles/pmemkv_test.dir/tests/engines/versioned_b_tree_test.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/lab505/app_source/quartzmemkv/tests/engines/versioned_b_tree_test.cc -o CMakeFiles/pmemkv_test.dir/tests/engines/versioned_b_tree_test.cc.s
 
 # Object files for target pmemkv_test
 pmemkv_test_OBJECTS = \
@@ -142,7 +142,7 @@ pmemkv_test: CMakeFiles/pmemkv_test.dir/build.make
 pmemkv_test: libpmemkv.so
 pmemkv_test: gtest/src/gtest-build/libgtest.a
 pmemkv_test: CMakeFiles/pmemkv_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/lab505/app_source/quartzmemkv2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable pmemkv_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/lab505/app_source/quartzmemkv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable pmemkv_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pmemkv_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -155,6 +155,6 @@ CMakeFiles/pmemkv_test.dir/clean:
 .PHONY : CMakeFiles/pmemkv_test.dir/clean
 
 CMakeFiles/pmemkv_test.dir/depend:
-	cd /root/lab505/app_source/quartzmemkv2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/lab505/app_source/quartzmemkv2 /root/lab505/app_source/quartzmemkv2 /root/lab505/app_source/quartzmemkv2 /root/lab505/app_source/quartzmemkv2 /root/lab505/app_source/quartzmemkv2/CMakeFiles/pmemkv_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/lab505/app_source/quartzmemkv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/lab505/app_source/quartzmemkv /root/lab505/app_source/quartzmemkv /root/lab505/app_source/quartzmemkv /root/lab505/app_source/quartzmemkv /root/lab505/app_source/quartzmemkv/CMakeFiles/pmemkv_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pmemkv_test.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/lab505/app_source/quartzmemkv2
+CMAKE_SOURCE_DIR = /root/lab505/app_source/quartzmemkv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/lab505/app_source/quartzmemkv2
+CMAKE_BINARY_DIR = /root/lab505/app_source/quartzmemkv
 
 # Utility rule file for gtest.
 
@@ -64,55 +64,54 @@ CMakeFiles/gtest-complete: gtest/src/gtest-stamp/gtest-patch
 CMakeFiles/gtest-complete: gtest/src/gtest-stamp/gtest-configure
 CMakeFiles/gtest-complete: gtest/src/gtest-stamp/gtest-build
 CMakeFiles/gtest-complete: gtest/src/gtest-stamp/gtest-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/lab505/app_source/quartzmemkv2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'gtest'"
-	/usr/local/bin/cmake -E make_directory /root/lab505/app_source/quartzmemkv2/CMakeFiles
-	/usr/local/bin/cmake -E touch /root/lab505/app_source/quartzmemkv2/CMakeFiles/gtest-complete
-	/usr/local/bin/cmake -E touch /root/lab505/app_source/quartzmemkv2/gtest/src/gtest-stamp/gtest-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/lab505/app_source/quartzmemkv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'gtest'"
+	/usr/local/bin/cmake -E make_directory /root/lab505/app_source/quartzmemkv/CMakeFiles
+	/usr/local/bin/cmake -E touch /root/lab505/app_source/quartzmemkv/CMakeFiles/gtest-complete
+	/usr/local/bin/cmake -E touch /root/lab505/app_source/quartzmemkv/gtest/src/gtest-stamp/gtest-done
 
 gtest/src/gtest-stamp/gtest-install: gtest/src/gtest-stamp/gtest-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/lab505/app_source/quartzmemkv2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'gtest'"
-	cd /root/lab505/app_source/quartzmemkv2/gtest/src/gtest-build && /usr/local/bin/cmake -E echo_append
-	cd /root/lab505/app_source/quartzmemkv2/gtest/src/gtest-build && /usr/local/bin/cmake -E touch /root/lab505/app_source/quartzmemkv2/gtest/src/gtest-stamp/gtest-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/lab505/app_source/quartzmemkv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'gtest'"
+	cd /root/lab505/app_source/quartzmemkv/gtest/src/gtest-build && /usr/local/bin/cmake -E echo_append
+	cd /root/lab505/app_source/quartzmemkv/gtest/src/gtest-build && /usr/local/bin/cmake -E touch /root/lab505/app_source/quartzmemkv/gtest/src/gtest-stamp/gtest-install
 
 gtest/src/gtest-stamp/gtest-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/lab505/app_source/quartzmemkv2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'gtest'"
-	/usr/local/bin/cmake -E make_directory /root/lab505/app_source/quartzmemkv2/gtest/src/gtest
-	/usr/local/bin/cmake -E make_directory /root/lab505/app_source/quartzmemkv2/gtest/src/gtest-build
-	/usr/local/bin/cmake -E make_directory /root/lab505/app_source/quartzmemkv2/gtest
-	/usr/local/bin/cmake -E make_directory /root/lab505/app_source/quartzmemkv2/gtest/tmp
-	/usr/local/bin/cmake -E make_directory /root/lab505/app_source/quartzmemkv2/gtest/src/gtest-stamp
-	/usr/local/bin/cmake -E make_directory /root/lab505/app_source/quartzmemkv2
-	/usr/local/bin/cmake -E touch /root/lab505/app_source/quartzmemkv2/gtest/src/gtest-stamp/gtest-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/lab505/app_source/quartzmemkv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'gtest'"
+	/usr/local/bin/cmake -E make_directory /root/lab505/app_source/quartzmemkv/gtest/src/gtest
+	/usr/local/bin/cmake -E make_directory /root/lab505/app_source/quartzmemkv/gtest/src/gtest-build
+	/usr/local/bin/cmake -E make_directory /root/lab505/app_source/quartzmemkv/gtest
+	/usr/local/bin/cmake -E make_directory /root/lab505/app_source/quartzmemkv/gtest/tmp
+	/usr/local/bin/cmake -E make_directory /root/lab505/app_source/quartzmemkv/gtest/src/gtest-stamp
+	/usr/local/bin/cmake -E make_directory /root/lab505/app_source/quartzmemkv
+	/usr/local/bin/cmake -E touch /root/lab505/app_source/quartzmemkv/gtest/src/gtest-stamp/gtest-mkdir
 
 gtest/src/gtest-stamp/gtest-download: gtest/src/gtest-stamp/gtest-urlinfo.txt
 gtest/src/gtest-stamp/gtest-download: gtest/src/gtest-stamp/gtest-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/lab505/app_source/quartzmemkv2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (download, verify and extract) for 'gtest'"
-	cd /root/lab505/app_source/quartzmemkv2/gtest/src && /usr/local/bin/cmake -P /root/lab505/app_source/quartzmemkv2/gtest/src/gtest-stamp/download-gtest.cmake
-	cd /root/lab505/app_source/quartzmemkv2/gtest/src && /usr/local/bin/cmake -P /root/lab505/app_source/quartzmemkv2/gtest/src/gtest-stamp/verify-gtest.cmake
-	cd /root/lab505/app_source/quartzmemkv2/gtest/src && /usr/local/bin/cmake -P /root/lab505/app_source/quartzmemkv2/gtest/src/gtest-stamp/extract-gtest.cmake
-	cd /root/lab505/app_source/quartzmemkv2/gtest/src && /usr/local/bin/cmake -E touch /root/lab505/app_source/quartzmemkv2/gtest/src/gtest-stamp/gtest-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/lab505/app_source/quartzmemkv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (verify and extract) for 'gtest'"
+	cd /root/lab505/app_source/quartzmemkv/gtest/src && /usr/local/bin/cmake -P /root/lab505/app_source/quartzmemkv/gtest/src/gtest-stamp/verify-gtest.cmake
+	cd /root/lab505/app_source/quartzmemkv/gtest/src && /usr/local/bin/cmake -P /root/lab505/app_source/quartzmemkv/gtest/src/gtest-stamp/extract-gtest.cmake
+	cd /root/lab505/app_source/quartzmemkv/gtest/src && /usr/local/bin/cmake -E touch /root/lab505/app_source/quartzmemkv/gtest/src/gtest-stamp/gtest-download
 
 gtest/src/gtest-stamp/gtest-update: gtest/src/gtest-stamp/gtest-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/lab505/app_source/quartzmemkv2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'gtest'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/lab505/app_source/quartzmemkv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'gtest'"
 	/usr/local/bin/cmake -E echo_append
-	/usr/local/bin/cmake -E touch /root/lab505/app_source/quartzmemkv2/gtest/src/gtest-stamp/gtest-update
+	/usr/local/bin/cmake -E touch /root/lab505/app_source/quartzmemkv/gtest/src/gtest-stamp/gtest-update
 
 gtest/src/gtest-stamp/gtest-patch: gtest/src/gtest-stamp/gtest-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/lab505/app_source/quartzmemkv2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'gtest'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/lab505/app_source/quartzmemkv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'gtest'"
 	/usr/local/bin/cmake -E echo_append
-	/usr/local/bin/cmake -E touch /root/lab505/app_source/quartzmemkv2/gtest/src/gtest-stamp/gtest-patch
+	/usr/local/bin/cmake -E touch /root/lab505/app_source/quartzmemkv/gtest/src/gtest-stamp/gtest-patch
 
 gtest/src/gtest-stamp/gtest-configure: gtest/tmp/gtest-cfgcmd.txt
 gtest/src/gtest-stamp/gtest-configure: gtest/src/gtest-stamp/gtest-update
 gtest/src/gtest-stamp/gtest-configure: gtest/src/gtest-stamp/gtest-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/lab505/app_source/quartzmemkv2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'gtest'"
-	cd /root/lab505/app_source/quartzmemkv2/gtest/src/gtest-build && /usr/local/bin/cmake -DCMAKE_CXX_COMPILER=/usr/bin/c++ "-GUnix Makefiles" /root/lab505/app_source/quartzmemkv2/gtest/src/gtest
-	cd /root/lab505/app_source/quartzmemkv2/gtest/src/gtest-build && /usr/local/bin/cmake -E touch /root/lab505/app_source/quartzmemkv2/gtest/src/gtest-stamp/gtest-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/lab505/app_source/quartzmemkv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'gtest'"
+	cd /root/lab505/app_source/quartzmemkv/gtest/src/gtest-build && /usr/local/bin/cmake -DCMAKE_CXX_COMPILER=/usr/bin/c++ "-GUnix Makefiles" /root/lab505/app_source/quartzmemkv/gtest/src/gtest
+	cd /root/lab505/app_source/quartzmemkv/gtest/src/gtest-build && /usr/local/bin/cmake -E touch /root/lab505/app_source/quartzmemkv/gtest/src/gtest-stamp/gtest-configure
 
 gtest/src/gtest-stamp/gtest-build: gtest/src/gtest-stamp/gtest-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/lab505/app_source/quartzmemkv2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'gtest'"
-	cd /root/lab505/app_source/quartzmemkv2/gtest/src/gtest-build && $(MAKE)
-	cd /root/lab505/app_source/quartzmemkv2/gtest/src/gtest-build && /usr/local/bin/cmake -E touch /root/lab505/app_source/quartzmemkv2/gtest/src/gtest-stamp/gtest-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/lab505/app_source/quartzmemkv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'gtest'"
+	cd /root/lab505/app_source/quartzmemkv/gtest/src/gtest-build && $(MAKE)
+	cd /root/lab505/app_source/quartzmemkv/gtest/src/gtest-build && /usr/local/bin/cmake -E touch /root/lab505/app_source/quartzmemkv/gtest/src/gtest-stamp/gtest-build
 
 gtest: CMakeFiles/gtest
 gtest: CMakeFiles/gtest-complete
@@ -137,6 +136,6 @@ CMakeFiles/gtest.dir/clean:
 .PHONY : CMakeFiles/gtest.dir/clean
 
 CMakeFiles/gtest.dir/depend:
-	cd /root/lab505/app_source/quartzmemkv2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/lab505/app_source/quartzmemkv2 /root/lab505/app_source/quartzmemkv2 /root/lab505/app_source/quartzmemkv2 /root/lab505/app_source/quartzmemkv2 /root/lab505/app_source/quartzmemkv2/CMakeFiles/gtest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/lab505/app_source/quartzmemkv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/lab505/app_source/quartzmemkv /root/lab505/app_source/quartzmemkv /root/lab505/app_source/quartzmemkv /root/lab505/app_source/quartzmemkv /root/lab505/app_source/quartzmemkv/CMakeFiles/gtest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/gtest.dir/depend
 

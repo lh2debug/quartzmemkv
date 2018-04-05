@@ -1,7 +1,7 @@
-/root/lab505/app_source/quartzmemkv2/CMakeFiles/edit_cache.dir
-/root/lab505/app_source/quartzmemkv2/CMakeFiles/pmemkv_bench.dir
-/root/lab505/app_source/quartzmemkv2/CMakeFiles/pmemkv_test.dir
-/root/lab505/app_source/quartzmemkv2/CMakeFiles/pmemkv_example.dir
-/root/lab505/app_source/quartzmemkv2/CMakeFiles/pmemkv.dir
-/root/lab505/app_source/quartzmemkv2/CMakeFiles/rebuild_cache.dir
-/root/lab505/app_source/quartzmemkv2/CMakeFiles/gtest.dir
+/root/lab505/app_source/quartzmemkv/CMakeFiles/edit_cache.dir
+/root/lab505/app_source/quartzmemkv/CMakeFiles/pmemkv_bench.dir
+/root/lab505/app_source/quartzmemkv/CMakeFiles/pmemkv_test.dir
+/root/lab505/app_source/quartzmemkv/CMakeFiles/pmemkv_example.dir
+/root/lab505/app_source/quartzmemkv/CMakeFiles/pmemkv.dir
+/root/lab505/app_source/quartzmemkv/CMakeFiles/rebuild_cache.dir
+/root/lab505/app_source/quartzmemkv/CMakeFiles/gtest.dir

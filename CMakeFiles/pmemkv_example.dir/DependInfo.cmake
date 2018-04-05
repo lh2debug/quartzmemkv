@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/root/lab505/app_source/quartzmemkv2/src/pmemkv_example.cc" "/root/lab505/app_source/quartzmemkv2/CMakeFiles/pmemkv_example.dir/src/pmemkv_example.cc.o"
+  "/root/lab505/app_source/quartzmemkv/src/pmemkv_example.cc" "/root/lab505/app_source/quartzmemkv/CMakeFiles/pmemkv_example.dir/src/pmemkv_example.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,7 +19,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/root/lab505/app_source/quartzmemkv2/CMakeFiles/pmemkv.dir/DependInfo.cmake"
+  "/root/lab505/app_source/quartzmemkv/CMakeFiles/pmemkv.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

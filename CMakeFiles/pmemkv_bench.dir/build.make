@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/lab505/app_source/quartzmemkv2
+CMAKE_SOURCE_DIR = /root/lab505/app_source/quartzmemkv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/lab505/app_source/quartzmemkv2
+CMAKE_BINARY_DIR = /root/lab505/app_source/quartzmemkv
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pmemkv_bench.dir/depend.make
@@ -59,94 +59,94 @@ include CMakeFiles/pmemkv_bench.dir/flags.make
 
 CMakeFiles/pmemkv_bench.dir/src/pmemkv_bench.cc.o: CMakeFiles/pmemkv_bench.dir/flags.make
 CMakeFiles/pmemkv_bench.dir/src/pmemkv_bench.cc.o: src/pmemkv_bench.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/lab505/app_source/quartzmemkv2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pmemkv_bench.dir/src/pmemkv_bench.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pmemkv_bench.dir/src/pmemkv_bench.cc.o -c /root/lab505/app_source/quartzmemkv2/src/pmemkv_bench.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/lab505/app_source/quartzmemkv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pmemkv_bench.dir/src/pmemkv_bench.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pmemkv_bench.dir/src/pmemkv_bench.cc.o -c /root/lab505/app_source/quartzmemkv/src/pmemkv_bench.cc
 
 CMakeFiles/pmemkv_bench.dir/src/pmemkv_bench.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pmemkv_bench.dir/src/pmemkv_bench.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/lab505/app_source/quartzmemkv2/src/pmemkv_bench.cc > CMakeFiles/pmemkv_bench.dir/src/pmemkv_bench.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/lab505/app_source/quartzmemkv/src/pmemkv_bench.cc > CMakeFiles/pmemkv_bench.dir/src/pmemkv_bench.cc.i
 
 CMakeFiles/pmemkv_bench.dir/src/pmemkv_bench.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pmemkv_bench.dir/src/pmemkv_bench.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/lab505/app_source/quartzmemkv2/src/pmemkv_bench.cc -o CMakeFiles/pmemkv_bench.dir/src/pmemkv_bench.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/lab505/app_source/quartzmemkv/src/pmemkv_bench.cc -o CMakeFiles/pmemkv_bench.dir/src/pmemkv_bench.cc.s
 
 CMakeFiles/pmemkv_bench.dir/leveldb/port/port_posix.cc.o: CMakeFiles/pmemkv_bench.dir/flags.make
 CMakeFiles/pmemkv_bench.dir/leveldb/port/port_posix.cc.o: leveldb/port/port_posix.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/lab505/app_source/quartzmemkv2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pmemkv_bench.dir/leveldb/port/port_posix.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pmemkv_bench.dir/leveldb/port/port_posix.cc.o -c /root/lab505/app_source/quartzmemkv2/leveldb/port/port_posix.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/lab505/app_source/quartzmemkv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pmemkv_bench.dir/leveldb/port/port_posix.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pmemkv_bench.dir/leveldb/port/port_posix.cc.o -c /root/lab505/app_source/quartzmemkv/leveldb/port/port_posix.cc
 
 CMakeFiles/pmemkv_bench.dir/leveldb/port/port_posix.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pmemkv_bench.dir/leveldb/port/port_posix.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/lab505/app_source/quartzmemkv2/leveldb/port/port_posix.cc > CMakeFiles/pmemkv_bench.dir/leveldb/port/port_posix.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/lab505/app_source/quartzmemkv/leveldb/port/port_posix.cc > CMakeFiles/pmemkv_bench.dir/leveldb/port/port_posix.cc.i
 
 CMakeFiles/pmemkv_bench.dir/leveldb/port/port_posix.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pmemkv_bench.dir/leveldb/port/port_posix.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/lab505/app_source/quartzmemkv2/leveldb/port/port_posix.cc -o CMakeFiles/pmemkv_bench.dir/leveldb/port/port_posix.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/lab505/app_source/quartzmemkv/leveldb/port/port_posix.cc -o CMakeFiles/pmemkv_bench.dir/leveldb/port/port_posix.cc.s
 
 CMakeFiles/pmemkv_bench.dir/leveldb/util/env.cc.o: CMakeFiles/pmemkv_bench.dir/flags.make
 CMakeFiles/pmemkv_bench.dir/leveldb/util/env.cc.o: leveldb/util/env.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/lab505/app_source/quartzmemkv2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pmemkv_bench.dir/leveldb/util/env.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pmemkv_bench.dir/leveldb/util/env.cc.o -c /root/lab505/app_source/quartzmemkv2/leveldb/util/env.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/lab505/app_source/quartzmemkv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pmemkv_bench.dir/leveldb/util/env.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pmemkv_bench.dir/leveldb/util/env.cc.o -c /root/lab505/app_source/quartzmemkv/leveldb/util/env.cc
 
 CMakeFiles/pmemkv_bench.dir/leveldb/util/env.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pmemkv_bench.dir/leveldb/util/env.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/lab505/app_source/quartzmemkv2/leveldb/util/env.cc > CMakeFiles/pmemkv_bench.dir/leveldb/util/env.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/lab505/app_source/quartzmemkv/leveldb/util/env.cc > CMakeFiles/pmemkv_bench.dir/leveldb/util/env.cc.i
 
 CMakeFiles/pmemkv_bench.dir/leveldb/util/env.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pmemkv_bench.dir/leveldb/util/env.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/lab505/app_source/quartzmemkv2/leveldb/util/env.cc -o CMakeFiles/pmemkv_bench.dir/leveldb/util/env.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/lab505/app_source/quartzmemkv/leveldb/util/env.cc -o CMakeFiles/pmemkv_bench.dir/leveldb/util/env.cc.s
 
 CMakeFiles/pmemkv_bench.dir/leveldb/util/env_posix.cc.o: CMakeFiles/pmemkv_bench.dir/flags.make
 CMakeFiles/pmemkv_bench.dir/leveldb/util/env_posix.cc.o: leveldb/util/env_posix.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/lab505/app_source/quartzmemkv2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pmemkv_bench.dir/leveldb/util/env_posix.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pmemkv_bench.dir/leveldb/util/env_posix.cc.o -c /root/lab505/app_source/quartzmemkv2/leveldb/util/env_posix.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/lab505/app_source/quartzmemkv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pmemkv_bench.dir/leveldb/util/env_posix.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pmemkv_bench.dir/leveldb/util/env_posix.cc.o -c /root/lab505/app_source/quartzmemkv/leveldb/util/env_posix.cc
 
 CMakeFiles/pmemkv_bench.dir/leveldb/util/env_posix.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pmemkv_bench.dir/leveldb/util/env_posix.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/lab505/app_source/quartzmemkv2/leveldb/util/env_posix.cc > CMakeFiles/pmemkv_bench.dir/leveldb/util/env_posix.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/lab505/app_source/quartzmemkv/leveldb/util/env_posix.cc > CMakeFiles/pmemkv_bench.dir/leveldb/util/env_posix.cc.i
 
 CMakeFiles/pmemkv_bench.dir/leveldb/util/env_posix.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pmemkv_bench.dir/leveldb/util/env_posix.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/lab505/app_source/quartzmemkv2/leveldb/util/env_posix.cc -o CMakeFiles/pmemkv_bench.dir/leveldb/util/env_posix.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/lab505/app_source/quartzmemkv/leveldb/util/env_posix.cc -o CMakeFiles/pmemkv_bench.dir/leveldb/util/env_posix.cc.s
 
 CMakeFiles/pmemkv_bench.dir/leveldb/util/histogram.cc.o: CMakeFiles/pmemkv_bench.dir/flags.make
 CMakeFiles/pmemkv_bench.dir/leveldb/util/histogram.cc.o: leveldb/util/histogram.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/lab505/app_source/quartzmemkv2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pmemkv_bench.dir/leveldb/util/histogram.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pmemkv_bench.dir/leveldb/util/histogram.cc.o -c /root/lab505/app_source/quartzmemkv2/leveldb/util/histogram.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/lab505/app_source/quartzmemkv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pmemkv_bench.dir/leveldb/util/histogram.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pmemkv_bench.dir/leveldb/util/histogram.cc.o -c /root/lab505/app_source/quartzmemkv/leveldb/util/histogram.cc
 
 CMakeFiles/pmemkv_bench.dir/leveldb/util/histogram.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pmemkv_bench.dir/leveldb/util/histogram.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/lab505/app_source/quartzmemkv2/leveldb/util/histogram.cc > CMakeFiles/pmemkv_bench.dir/leveldb/util/histogram.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/lab505/app_source/quartzmemkv/leveldb/util/histogram.cc > CMakeFiles/pmemkv_bench.dir/leveldb/util/histogram.cc.i
 
 CMakeFiles/pmemkv_bench.dir/leveldb/util/histogram.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pmemkv_bench.dir/leveldb/util/histogram.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/lab505/app_source/quartzmemkv2/leveldb/util/histogram.cc -o CMakeFiles/pmemkv_bench.dir/leveldb/util/histogram.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/lab505/app_source/quartzmemkv/leveldb/util/histogram.cc -o CMakeFiles/pmemkv_bench.dir/leveldb/util/histogram.cc.s
 
 CMakeFiles/pmemkv_bench.dir/leveldb/util/logging.cc.o: CMakeFiles/pmemkv_bench.dir/flags.make
 CMakeFiles/pmemkv_bench.dir/leveldb/util/logging.cc.o: leveldb/util/logging.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/lab505/app_source/quartzmemkv2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/pmemkv_bench.dir/leveldb/util/logging.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pmemkv_bench.dir/leveldb/util/logging.cc.o -c /root/lab505/app_source/quartzmemkv2/leveldb/util/logging.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/lab505/app_source/quartzmemkv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/pmemkv_bench.dir/leveldb/util/logging.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pmemkv_bench.dir/leveldb/util/logging.cc.o -c /root/lab505/app_source/quartzmemkv/leveldb/util/logging.cc
 
 CMakeFiles/pmemkv_bench.dir/leveldb/util/logging.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pmemkv_bench.dir/leveldb/util/logging.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/lab505/app_source/quartzmemkv2/leveldb/util/logging.cc > CMakeFiles/pmemkv_bench.dir/leveldb/util/logging.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/lab505/app_source/quartzmemkv/leveldb/util/logging.cc > CMakeFiles/pmemkv_bench.dir/leveldb/util/logging.cc.i
 
 CMakeFiles/pmemkv_bench.dir/leveldb/util/logging.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pmemkv_bench.dir/leveldb/util/logging.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/lab505/app_source/quartzmemkv2/leveldb/util/logging.cc -o CMakeFiles/pmemkv_bench.dir/leveldb/util/logging.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/lab505/app_source/quartzmemkv/leveldb/util/logging.cc -o CMakeFiles/pmemkv_bench.dir/leveldb/util/logging.cc.s
 
 CMakeFiles/pmemkv_bench.dir/leveldb/util/status.cc.o: CMakeFiles/pmemkv_bench.dir/flags.make
 CMakeFiles/pmemkv_bench.dir/leveldb/util/status.cc.o: leveldb/util/status.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/lab505/app_source/quartzmemkv2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/pmemkv_bench.dir/leveldb/util/status.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pmemkv_bench.dir/leveldb/util/status.cc.o -c /root/lab505/app_source/quartzmemkv2/leveldb/util/status.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/lab505/app_source/quartzmemkv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/pmemkv_bench.dir/leveldb/util/status.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pmemkv_bench.dir/leveldb/util/status.cc.o -c /root/lab505/app_source/quartzmemkv/leveldb/util/status.cc
 
 CMakeFiles/pmemkv_bench.dir/leveldb/util/status.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pmemkv_bench.dir/leveldb/util/status.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/lab505/app_source/quartzmemkv2/leveldb/util/status.cc > CMakeFiles/pmemkv_bench.dir/leveldb/util/status.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/lab505/app_source/quartzmemkv/leveldb/util/status.cc > CMakeFiles/pmemkv_bench.dir/leveldb/util/status.cc.i
 
 CMakeFiles/pmemkv_bench.dir/leveldb/util/status.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pmemkv_bench.dir/leveldb/util/status.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/lab505/app_source/quartzmemkv2/leveldb/util/status.cc -o CMakeFiles/pmemkv_bench.dir/leveldb/util/status.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/lab505/app_source/quartzmemkv/leveldb/util/status.cc -o CMakeFiles/pmemkv_bench.dir/leveldb/util/status.cc.s
 
 # Object files for target pmemkv_bench
 pmemkv_bench_OBJECTS = \
@@ -171,7 +171,7 @@ pmemkv_bench: CMakeFiles/pmemkv_bench.dir/leveldb/util/status.cc.o
 pmemkv_bench: CMakeFiles/pmemkv_bench.dir/build.make
 pmemkv_bench: libpmemkv.so
 pmemkv_bench: CMakeFiles/pmemkv_bench.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/lab505/app_source/quartzmemkv2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable pmemkv_bench"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/lab505/app_source/quartzmemkv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable pmemkv_bench"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pmemkv_bench.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -184,6 +184,6 @@ CMakeFiles/pmemkv_bench.dir/clean:
 .PHONY : CMakeFiles/pmemkv_bench.dir/clean
 
 CMakeFiles/pmemkv_bench.dir/depend:
-	cd /root/lab505/app_source/quartzmemkv2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/lab505/app_source/quartzmemkv2 /root/lab505/app_source/quartzmemkv2 /root/lab505/app_source/quartzmemkv2 /root/lab505/app_source/quartzmemkv2 /root/lab505/app_source/quartzmemkv2/CMakeFiles/pmemkv_bench.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/lab505/app_source/quartzmemkv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/lab505/app_source/quartzmemkv /root/lab505/app_source/quartzmemkv /root/lab505/app_source/quartzmemkv /root/lab505/app_source/quartzmemkv /root/lab505/app_source/quartzmemkv/CMakeFiles/pmemkv_bench.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pmemkv_bench.dir/depend
 

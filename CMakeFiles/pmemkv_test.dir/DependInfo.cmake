@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/root/lab505/app_source/quartzmemkv2/tests/engines/blackhole_test.cc" "/root/lab505/app_source/quartzmemkv2/CMakeFiles/pmemkv_test.dir/tests/engines/blackhole_test.cc.o"
-  "/root/lab505/app_source/quartzmemkv2/tests/engines/kvtree_test.cc" "/root/lab505/app_source/quartzmemkv2/CMakeFiles/pmemkv_test.dir/tests/engines/kvtree_test.cc.o"
-  "/root/lab505/app_source/quartzmemkv2/tests/engines/versioned_b_tree_test.cc" "/root/lab505/app_source/quartzmemkv2/CMakeFiles/pmemkv_test.dir/tests/engines/versioned_b_tree_test.cc.o"
-  "/root/lab505/app_source/quartzmemkv2/tests/mock_tx_alloc.cc" "/root/lab505/app_source/quartzmemkv2/CMakeFiles/pmemkv_test.dir/tests/mock_tx_alloc.cc.o"
-  "/root/lab505/app_source/quartzmemkv2/tests/pmemkv_test.cc" "/root/lab505/app_source/quartzmemkv2/CMakeFiles/pmemkv_test.dir/tests/pmemkv_test.cc.o"
+  "/root/lab505/app_source/quartzmemkv/tests/engines/blackhole_test.cc" "/root/lab505/app_source/quartzmemkv/CMakeFiles/pmemkv_test.dir/tests/engines/blackhole_test.cc.o"
+  "/root/lab505/app_source/quartzmemkv/tests/engines/kvtree_test.cc" "/root/lab505/app_source/quartzmemkv/CMakeFiles/pmemkv_test.dir/tests/engines/kvtree_test.cc.o"
+  "/root/lab505/app_source/quartzmemkv/tests/engines/versioned_b_tree_test.cc" "/root/lab505/app_source/quartzmemkv/CMakeFiles/pmemkv_test.dir/tests/engines/versioned_b_tree_test.cc.o"
+  "/root/lab505/app_source/quartzmemkv/tests/mock_tx_alloc.cc" "/root/lab505/app_source/quartzmemkv/CMakeFiles/pmemkv_test.dir/tests/mock_tx_alloc.cc.o"
+  "/root/lab505/app_source/quartzmemkv/tests/pmemkv_test.cc" "/root/lab505/app_source/quartzmemkv/CMakeFiles/pmemkv_test.dir/tests/pmemkv_test.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -23,7 +23,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/root/lab505/app_source/quartzmemkv2/CMakeFiles/pmemkv.dir/DependInfo.cmake"
+  "/root/lab505/app_source/quartzmemkv/CMakeFiles/pmemkv.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
